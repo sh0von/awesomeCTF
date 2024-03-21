@@ -24,9 +24,30 @@ In CTF competitions, having a solid foundation in using various operating system
 - Vim/Emacs: Text editors commonly used for coding and editing files in the terminal environment.
 
 ### Network Monitoring 🕵️
-- Wireshark: A powerful network protocol analyzer used for capturing and analyzing network traffic.
-- Tcpdump: A command-line packet analyzer used for network troubleshooting and monitoring.
-- Nmap: A network scanning tool used to discover hosts and services on a network.
+- **Wireshark**: A powerful network protocol analyzer used for capturing and analyzing network traffic.
+- **Tcpdump**: A command-line packet analyzer used for network troubleshooting and monitoring.
+- **Nmap**: A network scanning tool used to discover hosts and services on a network.
+
+#### Nmap Tutorial:
+1. **Basic Scanning**: 
+   - Use `nmap` followed by the target IP or domain to perform a basic scan. Example: `nmap 192.168.1.1`
+
+2. **Port Scanning**:
+   - Use `-p` option to specify ports to scan. Example: `nmap -p 80,443 192.168.1.1`
+
+3. **OS Detection**:
+   - Use `-O` option to enable OS detection. Example: `nmap -O 192.168.1.1`
+
+4. **Service Version Detection**:
+   - Use `-sV` option to detect service versions. Example: `nmap -sV 192.168.1.1`
+
+5. **Aggressive Scanning**:
+   - Use `-A` option for aggressive scanning. Example: `nmap -A 192.168.1.1`
+
+6. **Output to File**:
+   - Use `-oN` option to save results to a file. Example: `nmap -oN scan_results.txt 192.168.1.1`
+
+This is a basic overview of Nmap usage. For more advanced features and options, refer to the official Nmap documentation.
 
 ## Web Exploitation 🌐
 
