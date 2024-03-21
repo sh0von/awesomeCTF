@@ -27,8 +27,9 @@ In CTF competitions, having a solid foundation in using various operating system
 - **Wireshark**: A powerful network protocol analyzer used for capturing and analyzing network traffic.
 - **Tcpdump**: A command-line packet analyzer used for network troubleshooting and monitoring.
 - **Nmap**: A network scanning tool used to discover hosts and services on a network.
+<details>
+<summary><strong>Nmap Tutorial</strong></summary>
 
-#### Nmap Tutorial:
 1. **Basic Scanning**: 
    - Use `nmap` followed by the target IP or domain to perform a basic scan. Example: `nmap 192.168.1.1`
 
@@ -49,12 +50,38 @@ In CTF competitions, having a solid foundation in using various operating system
 
 This is a basic overview of Nmap usage. For more advanced features and options, refer to the official Nmap documentation.
 
+</details>
+
 ## Web Exploitation 🌐
 
 Web exploitation tools are essential for solving challenges related to web applications, such as finding and exploiting vulnerabilities like SQL injection, cross-site scripting (XSS), and directory traversal.
 
 ### SQL Injection 💉
 - SqlMap: A popular tool for detecting and exploiting SQL injection vulnerabilities in web applications.
+
+<details>
+<summary><strong>SqlMap Tutorial</strong></summary>
+<br>
+
+1. **Basic Usage**: 
+   - Run SqlMap with the `-u` option followed by the vulnerable URL. Example: `sqlmap -u "http://example.com/page.php?id=1"`
+
+2. **Parameter Detection**: 
+   - Use the `-p` option to specify parameters vulnerable to SQL injection. Example: `sqlmap -u "http://example.com/page.php" --data="param1=value1&param2=value2" -p param1`
+
+3. **Detection and Exploitation**:
+   - Use the `--dbs` option to enumerate databases. Example: `sqlmap -u "http://example.com/page.php?id=1" --dbs`
+   - Use the `-D` option to specify the database to enumerate tables. Example: `sqlmap -u "http://example.com/page.php?id=1" -D dbname --tables`
+   - Use the `-T` option to specify the table to dump data. Example: `sqlmap -u "http://example.com/page.php?id=1" -D dbname -T tablename --dump`
+
+4. **Advanced Techniques**:
+   - Use the `--tamper` option to specify tamper scripts for evasion. Example: `sqlmap -u "http://example.com/page.php?id=1" --tamper=space2comment`
+
+5. **Save Output to File**:
+   - Use the `-o` option to save results to a file. Example: `sqlmap -u "http://example.com/page.php?id=1" -o output.txt`
+
+This is a basic overview of SqlMap usage. For more advanced features and options, refer to the official SqlMap documentation.
+</details>
 
 ### Proxies 🦸
 - Burp Suite: A comprehensive web application security testing tool used for intercepting and modifying HTTP requests.
