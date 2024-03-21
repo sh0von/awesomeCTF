@@ -39,6 +39,10 @@ Web exploitation tools are essential for solving challenges related to web appli
 - Burp Suite: A comprehensive web application security testing tool used for intercepting and modifying HTTP requests.
 - OWASP ZAP: An open-source web application security scanner used for finding vulnerabilities in web applications.
 
+### API Testing
+- Postman: A powerful API testing tool used for sending HTTP requests, testing endpoints, and automating API testing workflows.
+
+
 ### Vulnerability Scanners 🛡️
 - Nikto: A web server scanner that detects potential security vulnerabilities in web servers.
 - W3af: A web application attack and audit framework used for exploiting and finding vulnerabilities in web applications.
