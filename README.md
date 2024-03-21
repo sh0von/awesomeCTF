@@ -16,9 +16,9 @@ Capture The Flag (CTF) competitions are cybersecurity challenges where participa
 In CTF competitions, having a solid foundation in using various operating systems and text editors is essential. These tools enable participants to navigate and manipulate files efficiently, which is crucial for analyzing challenges and writing scripts or exploits.
 
 ### Operating Systems 🖥️
-- Kali Linux: A widely used Linux distribution pre-installed with numerous security tools.
-- Parrot OS: Another Linux distribution tailored for security testing and digital forensics.
-- BlackArch Linux: A Linux distribution with an extensive collection of penetration testing tools.
+- **Kali Linux**: A widely used Linux distribution pre-installed with numerous security tools. [Kali Linux Official Website](https://www.kali.org/)
+- **Parrot OS**: Another Linux distribution tailored for security testing and digital forensics. [Parrot OS Official Website](https://www.parrotsec.org/)
+- **BlackArch Linux**: A Linux distribution with an extensive collection of penetration testing tools. [BlackArch Linux Official Website](https://blackarch.org/)
 
 ### Text Editors/IDEs ✏️
 - Vim/Emacs: Text editors commonly used for coding and editing files in the terminal environment.
