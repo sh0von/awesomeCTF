@@ -90,6 +90,11 @@ This is a basic overview of SqlMap usage. For more advanced features and options
 ### API Testing
 - **Postman**: A powerful API testing tool used for sending HTTP requests, testing endpoints, and automating API testing workflows.
 
+### Wordlists 📝
+- **RockYou**: One of the most popular wordlists containing commonly used passwords and phrases. It's widely used for password cracking and brute force attacks. [RockYou](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)
+- **SecLists**: A collection of multiple types of lists for security assessments and penetration testing. It includes passwords, usernames, URLs, fuzzing payloads, and many more. [SecLists](https://github.com/danielmiessler/SecLists)
+- **CrackStation**: Offers a large collection of password dictionaries and hash crackers for various purposes, including password recovery and brute force attacks. [CrackStation](https://crackstation.net/)
+
 
 ### Vulnerability Scanners 🛡️
 - **Nikto**: A web server scanner that detects potential security vulnerabilities in web servers.
