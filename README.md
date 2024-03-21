@@ -150,7 +150,7 @@ Cryptography tools are essential for analyzing and breaking cryptographic algori
 - **dcode. fr**: A website offering various tools and resources for solving cryptographic challenges. [dcode.fr](https://www.dcode.fr/)
 
 ### Password Cracking 🔓
-- J**ohn the Ripper**: A fast password cracker used for recovering lost passwords.
+- **John the Ripper**: A fast password cracker used for recovering lost passwords.
 - **Hashcat**: An advanced password recovery tool that supports various hash algorithms and attack modes.
 - **Hydra**: A fast and flexible password cracking tool that supports multiple protocols and services.
 
@@ -178,6 +178,49 @@ Steganography tools are essential for extracting hidden information from images,
 
 - **Steghide**: A steganography tool used for hiding data in various types of files.
 - **BinWalk**: A tool used for analyzing and extracting hidden data from binary files.
+
+<details>
+<summary><strong>BinWalk Tutorial</strong></summary>
+
+**1. Installation:**
+   - Binwalk can be installed on Linux distributions using the package manager. Here's how to install it on Ubuntu and other Debian-based systems:
+     ```
+     sudo apt-get update
+     sudo apt-get install binwalk
+     ```
+
+**2. Basic Usage:**
+   - Once installed, you can use Binwalk to analyze binary files.
+   - To analyze a binary file named "example.bin", simply run:
+     ```
+     binwalk example.bin
+     ```
+   - Binwalk will display information about the file's contents, including any embedded files or signatures detected.
+
+**3. Extracting Data:**
+   - Binwalk can also be used to extract embedded files from binary files.
+   - To extract all files from "example.bin" into a directory named "extracted", use the following command:
+     ```
+     binwalk -e example.bin -C extracted
+     ```
+
+**4. More Options:**
+   - Binwalk offers various options and flags for advanced usage.
+   - Refer to the official Binwalk documentation or use the `--help` flag to explore additional features and options.
+
+**5. Scripting and Automation:**
+   - Binwalk can be scripted and integrated into automated workflows for analyzing and processing multiple binary files.
+
+**6. Advanced Features:**
+   - Binwalk supports custom signature definitions and plugins, allowing for extended functionality and customization.
+
+**7. Resources:**
+   - Official Binwalk GitHub Repository: [Binwalk GitHub](https://github.com/ReFirmLabs/binwalk)
+   - Binwalk Documentation: [Binwalk Documentation](https://github.com/ReFirmLabs/binwalk/wiki)
+
+</details>
+
+
 - **OutGuess**: A steganography tool used for hiding data in JPEG images.
 - **Stegsolve**: A steganography tool used for analyzing and solving steganographic challenges.
 - **ExifTool**: A tool used for reading and writing metadata in various file formats.
