@@ -148,6 +148,7 @@ Cryptography tools are essential for analyzing and breaking cryptographic algori
 - **CyberChef**: A web-based tool for performing various cryptographic operations and data manipulation tasks. [CyberChef](https://gchq.github.io/CyberChef/)
 - **CrypTool**: An open-source cryptography learning and experimentation tool. [CrypTool](https://www.cryptool.org/en/)
 - **dcode. fr**: A website offering various tools and resources for solving cryptographic challenges. [dcode.fr](https://www.dcode.fr/)
+- **Cryptii**: A web-based tool for encoding, decoding, and converting data between various formats. [Cryptii](https://cryptii.com/)
 
 ### Password Cracking 🔓
 - **John the Ripper**: A fast password cracker used for recovering lost passwords.
